@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="nav">
+    <!-- Background Wrapper -->
+    <div class="background-wrapper">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-muted ">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+           <!-- Navbar brand -->
+            <a class="navbar-brand me-2" href="#">
+                <img id="logo" src="./images/logo-white.svg" height="57" alt="MDB Logo" loading="lazy"
+                    style="margin-top: -55px; margin-left: 20px;" />
+            </a>
+
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse links" id="navbarButtonsExample">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-link  dropdown-toggle" id="newDropdownButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Start Here
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="newDropdownButton">
+                                <li><a class="dropdown-item" href="#">About</a></li>
+                                <li><a class="dropdown-item" href="#">Meet The Team</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-link px-3 me-2">
+                            Travel Blog
+                        </button>
+                        <button type="button" class="btn btn-link px-3 me-2">
+                            Countries
+                        </button>
+                        <button type="button" class="btn btn-link px-3 me-2">
+                            Contact
+                        </button>
+                        <button type="button" class="btn btn-link px-3 me-2">
+                            Press
+                        </button>
+                        <button type="button" class="btn btn-link px-3 me-2">
+                            Expeditions
+                        </button>
+                        <button type="button" class="btn btn-link px-3 me-2">
+                            Travel Insurance
+                        </button>
+                        <button type="button" class="btn btn-link px-3 me-2">
+                            Resources
+                        </button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-link  dropdown-toggle" id="newDropdownButton"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./images/e.png" alt=""> English
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="newDropdownButton">
+                            <li><a class="dropdown-item" href="#"> <img src="./images/s.png" alt=""> Spanish</a></li>
+                           
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    <!-- Info Section -->
+    <div class="container info text-white">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <h1>Off The Beaten Track<br> Travel Blog</h1>
+                <p>Hey, this is Joan Torres, and <span class="fw-bold">AGAINST THE COMPASS</span> is a<br>different travel
+                    blog, which aims at <span class="fw-bold">HELPING</span> you to<br>travel to the most unusual and off
+                    the beaten track destinations</p>
+            </div>
+            <div class="col-12 col-md-4 d-flex align-items-center">
+                <button type="button" class="btn btn-success p-2" data-mdb-ripple-init>Subscribe ></button>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+    <section id="subscribe">
+        <div class="row ">
+            <div class="col">
+                <h3>GET TRAVEL TIPS <br>FOR OFFBEAT <br>COUNTRIES</h3>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control mt-5 " placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control mt-5 " placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-lg mt-5">SUBSCRIBE</button>
+            </div>
+            <div id="sticky">
+                <a href="#nav"><h1><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i></h1></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advice Section -->
+    <section id="advice" class="py-5">
+        <div class="container text-center">
+            <h5 style="color: grey; margin-bottom:40px;">MY TRAVEL ADVICE HAS BEEN FEATURED ON</h5>
+            <div class="row">
+                <div class="col-12">
+                    <img style="margin-bottom: 50px;" src="./images/As-seen-in-English-04042024-1200x98.jpg" alt="Featured On" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="favouritec">
+        <div class="countries">
+            <h2>my favourite countries</h2>
+            <div class="row">
+                <div class="col1">
+                <h1>SYRIA</h1>
+                </div>   
+                <div class="col2">
+                    <h1 style="margin-left: -50px;">PAKISTAN</h1>
+                </div>
+                <div class="col3">
+                    <h1 style="margin-left: -80px;">KYRGYZSTAN</h1>
+                </div>
+                <div class="col4">
+                    <h1>IRAQ</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col5">
+                    <h1 style="color: white;margin-top: 250px;margin-left: 30px;">MAURITANIA</h1>
+                </div>
+                <div class="col6">
+                    <h1 style="color: white;margin-top: 250px;margin-left: 110px;">MALI</h1>
+                </div>
+                <div class="col7">
+                    <h1 style="color: white;margin-top: 250px;margin-left: 70px;">ERITREA</h1>
+                </div>
+                <div class="col8 ">
+                    <h1 style="color: white;margin-top: 250px;margin-left: 10px;">AFGHANISTAN</h1>
+                </div>
+               
+            </div>
+            <button type="button" class="btn btn-success btn-lg p-3">VIEW ALL COUNTRIES</button>
+        </div>
+    </section>
+    <section id="expenditions">
+<div class="row">
+     
+    <div class="col-6"><h1>
+        Join Our <br></h1>
+       <h1> EXPEDITIONS
+    </h1>
+<p>Syria, Federal Iraq, Saudi Arabia, Mauritania, Kurdistan, Mali, Pakistan and many more to come.
+<br><br>
+Against the Compass is finally running epic group <br> expeditions into the most adventurous destinations, with a heavy focus
+on the local people and culture, while creating outstanding travel families. <br><br>
+
+We run expeditions every single month.</p>
+<button type="button" class="btn btn-success btn-md p-3">SCHEDULED EXPENDITIONS ></button>
+</div>
+    <div class="col-6">
+        <div class="imgexp">
+
+        </div>
+    </div>
+   
+</div>
+    </section>
+
+
+<section id="region">
+    <div class="favourite">
+        <h2>Browse by Region</h2>
+        <div class="row">
+            <div class="col">
+                <div class="img1">
+                    <h5>Central Asia</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="img2">
+                    <h5>Horn of Africa</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="img3">
+                    <h5>Middle East</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="newsletter">
+    <h1><i class="fa-solid fa-envelope" style="color: #346a5a;"></i>JOIN our Newsletter</h1>  
+    <h6>Subscribe to our email list, and receive:</h6>  
+    <p><i class="fa-solid fa-thumbs-up" style="color: #346a5a;"></i>Upcoming expeditions before we run out of spots</p>
+    <p><i class="fa-solid fa-thumbs-up" style="color: #346a5a;"></i>Access to <a href="">Against the Compass</a> email list, where I regularly share tips not found on my blog</p>
+    
+    <p><i class="fa-solid fa-thumbs-up" style="color: #346a5a;"></i>Personal trip announcements.</p>
+    <div class="sub">
+    <div class="row ">
+        <div class="col">
+            <input type="text " class="form-control mt-5 me-5 p-3" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+            <input type="text " class="form-control mt-5 me-5 p-3" placeholder="Last name" aria-label="Last name">
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-lg mt-5 p-3 ps-4 pe-4">SUBSCRIBE</button>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section id="latestposts">
+    <div class="latest">
+        <h2>latest posts</h2>
+        <div class="row">
+            <div class="col">
+                <div class="img1">
+                    <h5>How to travel to Afghanistan during Taliban rule (2024)</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="img2">
+                    <h5>How to Travel to Libya in 2024</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="img3">
+                    <h5>Backpacking Venezuela Travel Guide (2024)</h5>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <button type="button" class="btn btn-success btn-md p-3">ALL POSTS</button>
+</section>
+
+<section id="traveltips">
+    <div class="tips">
+        <h2>travel tips</h2>
+        <div class="row">
+            <div class="col">
+                <div class="img1">
+                    <h5>Country Guides & Itineraries</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="img2">
+                    <h5>Safety Travel</h5>
+                </div>
+            </div>
+            <div class="col">
+                <div class="img3">
+                    <h5>Unrecognized Countries</h5>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="mt-5 ">
+    <footer class=" text-center text-lg-start text-white" style="background-color: #346a5a;">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row my-4">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <div class="d-flex align-items-center justify-content-center mb-4 mx-auto"
+                        style="width: 150px; height: 150px;">
+                        <img src="/images/logo-white.svg" height="90" alt="" loading="lazy" />
+                    </div>
+
+                    <ul class="list-unstyled d-flex flex-row justify-content-center me-5">
+                        <li>
+                            <a class="text-white px-2 pe-4" href="#!">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white px-2 ps-3 pe-3" href="#!">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white ps-2" href="#!">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h3 class="text-uppercase mb-4">About us</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Expeditions</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">About Against The Compass</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Media</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Contact</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white"></a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Work</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h3 class="text-uppercase mb-4">Ouick Links</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Travel Resources</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Scheduled Rules</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Travel Insurance</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">VPN For Travel</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Start A Travel Blog</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Travel Guides</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h3 class="text-uppercase mb-4">Destinations</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Syria</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Iraq</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">unrecognized Countries</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Middle East</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#!" class="text-white">Afghanistan</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" >
+            <a class="text-white" href="">@2024 Against The Compass</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const navbar = document.querySelector('.navbar');
+        const logo = document.getElementById('logo');
+        const scrolledClass = 'scrolled';
+        const scrollThreshold = 50; // Adjust as needed
+
+        function onScroll() {
+            if (window.scrollY > scrollThreshold) {
+                navbar.classList.add(scrolledClass);
+                logo.src = './images/2.png'; // Change the image on scroll
+            } else {
+                navbar.classList.remove(scrolledClass);
+                logo.src = './images/logo-white.svg'; // Original image
+            }
+        }
+
+        window.addEventListener('scroll', onScroll);
+        onScroll(); // Initial check
+    });
+</script>
+
+</body>
+
+</html>
